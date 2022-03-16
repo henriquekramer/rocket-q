@@ -20,6 +20,7 @@ html {
   --grey-blue: #A1B2CD;
   --grey-medium: #D3D9E2;
   --grey-light: #E5EAF1;
+  --grey-medium: #eaecf2;
 
   font-size: 62.5%; /* mesma coisa que 10px, ficará mais fácil para depois converter pra rem, só dividir por 10 os valores de pixel, e não mais 16*/
 }
@@ -89,6 +90,20 @@ button.outlined,
   color: var(--blue);
   border: 0.2rem solid var(--blue);
 }
+
+button.red,
+.button.red{
+  background: var(--red);
+  color: var(--white);
+}
+
+button.grey,
+.button.grey{
+  background: var(--grey-light); 
+  color: var(--grey-dark);
+}
+
+/*---- HEADER -----*/
 
 .content header{
   width: 80%;
