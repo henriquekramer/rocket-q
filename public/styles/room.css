@@ -160,3 +160,10 @@
   margin-top: 1.3rem;
   line-height: 1.9rem;
 }
+
+/* RESPONSIVIDADE */
+@media (max-width: 850px){
+  #room-id{
+    display: none;
+  }
+}

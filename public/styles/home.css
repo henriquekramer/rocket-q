@@ -89,3 +89,35 @@ input, button, .button{
   bottom: -15rem;
   right:5.6rem;
 }
+
+/* RESPONSIVIDADE */
+@media (max-width: 850px){
+  .content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 11.4rem 1fr;
+    grid-template-areas: 
+    "header"
+    "right";
+  }
+  #bg {
+    display: none;
+  }
+  #room-id{
+    display: none;
+  }
+  main{
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
+
+@media (max-height: 600px){
+  .content {
+    min-height: 600px;
+  }
+  main{
+    margin: 0 auto;
+    justify-content: center;
+  }
+}

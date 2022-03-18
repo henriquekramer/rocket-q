@@ -40,6 +40,7 @@ body, button, input, textarea {
 .content {
   width: 100%;
   margin: 0 auto;
+  max-width: min(112rem, 90%);
 }
 
 .sr-only{   /* para sumir com os elementos que tem essa clase, porém o leitor de tela irá continuar lendo p/ acessiblidade*/
