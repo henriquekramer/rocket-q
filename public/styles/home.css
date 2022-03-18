@@ -103,11 +103,12 @@ input, button, .button{
   #bg {
     display: none;
   }
-  #room-id{
-    display: none;
+  .container{
+    /* margin-top: -12rem; */
   }
+  
   main{
-    margin: 0 auto;
+    /* margin: 0 auto; */
     justify-content: center;
   }
 }
@@ -117,7 +118,7 @@ input, button, .button{
     min-height: 600px;
   }
   main{
-    margin: 0 auto;
+    /* margin: 0 auto; */
     justify-content: center;
   }
 }
