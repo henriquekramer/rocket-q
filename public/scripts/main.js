@@ -6,6 +6,14 @@ const modalTittle = document.querySelector('.modal h2')
 const modalDescription = document.querySelector('.modal p')
 const modalButton = document.querySelector('.modal button')
 
+/*Botão de copiar o  número da sala */
+const buttonCopy = document.getElementById('room-id')
+buttonCopy.addEventListener('click', (event) =>{
+  const text = document.getElementById('copyText').textContent;
+  navigator.clipboard.writeText(text);
+})
+
+
 /* Pegar todos os botões que existe com a classe check */
 const checkButtons = document.querySelectorAll('.actions a.check')
 
