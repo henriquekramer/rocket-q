@@ -1,8 +1,8 @@
-const express = require('express');
+const express = require('express')
 const route = require('./route')
 const path = require('path')
 
-const server = express();
+const server = express()
 
 server.set('view engine', 'ejs')
 
@@ -10,7 +10,7 @@ server.use(express.static("public"))
 
 server.set('views', path.join(__dirname, 'views'))
 
-server.use(express.urlencoded({extended: true})) /*serve paga pegar o conteúdo do formulário, decodificar e passar para o controler */
+server.use(express.urlencoded({extended: true}))
 
 server.use(route)
 
