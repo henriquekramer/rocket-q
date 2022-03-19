@@ -18,6 +18,9 @@
 
 <p align="center">
   <img alt="Rocket.Q" src="https://user-images.githubusercontent.com/97106134/159043631-ecb4aca2-5ef8-45ca-9dca-34edbbf0e472.png" width="100%">
+  <img alt="Rocket.Q" src="https://user-images.githubusercontent.com/97106134/159128297-4f12d02e-03da-4f35-acb4-c7e3f2d19525.PNG" width="100%">
+  
+  
 </p>
 
 ## 🚀 Tecnologias
