@@ -57,3 +57,11 @@
   padding: 1.3rem 3.2rem;
 }
 
+@media (max-width: 850px){
+  .buttons{
+    flex-wrap: wrap;
+  }
+  .modal-wrapper .modal {
+    padding: 5.4rem 0.4rem;
+  }
+}

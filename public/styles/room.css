@@ -164,7 +164,11 @@
 /* RESPONSIVIDADE */
 @media (max-width: 850px){
   #room-id{
-    display: none;
+    /* display: none; */
+  }
+  header{
+    display: flex;
+    flex-wrap: wrap;
   }
   
 }
